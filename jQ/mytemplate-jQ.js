@@ -11,15 +11,4 @@ $(document).ready(function(){
 	  $('body,html').animate({scrollTop:0},700);
 	  });
 	});
-	
-		$(".tariff-order").click(function(){
-        $(".form").slideToggle("slow");
-        $(this).toggleClass("active"); return false;
-    });
-	
-		$(".order").click(function(){
-        $(".form").slideToggle("slow");
-        $(this).toggleClass("active"); return false;
-    });
-
 });
